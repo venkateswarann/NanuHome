@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.vivek.nanuhome.fragments.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment">
+        <action
+            android:id="@+id/action_homeFragment_to_addItems"
+            app:destination="@id/listItems"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_homeFragment_to_workToFinish2"
+            app:destination="@id/workToFinish"
+            app:enterAnim="@anim/nav_default_enter_anim" />
+        <action
+            android:id="@+id/action_homeFragment_to_addItemsFragment"
+            app:destination="@id/addItemsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listItems"
+        android:name="com.example.vivek.nanuhome.fragments.ListItemsFragment"
+        android:label="LIST ITEMS"
+        tools:layout="@layout/fragment_list_items">
+
+    </fragment>
+    <fragment
+        android:id="@+id/workToFinish"
+        android:name="com.example.vivek.nanuhome.fragments.WorkToFinishFragment"
+        android:label="WORK TO FINISH"
+        tools:layout="@layout/fragment_work_to_finish">
+
+    </fragment>
+    <fragment
+        android:id="@+id/addItemsFragment"
+        android:name="com.example.vivek.nanuhome.fragments.AddItemsFragment"
+        android:label="ADD NEW ITEMS"
+        tools:layout="@layout/fragment_add_items" />
+</navigation>

@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "402251221965",
+    "firebase_url": "https://nanu-home.firebaseio.com",
+    "project_id": "nanu-home",
+    "storage_bucket": "nanu-home.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402251221965:android:eeeeb46d74c1f31f",
+        "android_client_info": {
+          "package_name": "com.example.vivek.nanuhome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402251221965-ro4vf86idt93ai192kinhr7rnlirc7om.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vivek.nanuhome",
+            "certificate_hash": "5d90bed5976ad01974441c454df1f9310daec2bc"
+          }
+        },
+        {
+          "client_id": "402251221965-o3m8fjju6a4bem5jl93q1uheu0iuckiq.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "402251221965-o3m8fjju6a4bem5jl93q1uheu0iuckiq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0iGstuYQBkswsI6iQGI1Dg6LCgh5xi-Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402251221965-o3m8fjju6a4bem5jl93q1uheu0iuckiq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
